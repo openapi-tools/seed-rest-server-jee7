@@ -1,4 +1,4 @@
-package dk.sample.openapi;
+package io.openapitools.openapi;
 
 import java.util.List;
 
@@ -35,7 +35,7 @@ public class Headers {
             "of content. If you want another version use application/hal+json;concept=(the projection);v=(the version)";
         String pattern = "((application\\/hal\\+json)+(, )?(;concept=[a-z][a-z0-9]+)?(;v=[0-9]+)?(, )*)+";
         if (headerDoesNotExist(operation, header)) {
-            Parameter accept = new dk.sample.openapi.HeaderParameter();
+            Parameter accept = new io.openapitools.openapi.HeaderParameter();
             accept.setIn("header");
             accept.setRequired(true);
             accept.setName(header);
@@ -53,7 +53,7 @@ public class Headers {
             " If not present a token will be generated and returned in response";
         String pattern = "^[a-zA-Z0-9-]{36}$";
         if (headerDoesNotExist(operation, header)) {
-            Parameter token = new dk.sample.openapi.HeaderParameter();
+            Parameter token = new io.openapitools.openapi.HeaderParameter();
             token.setIn("header");
             token.setRequired(false);
             token.setName(header);
@@ -71,7 +71,7 @@ public class Headers {
             "other than the current one. If not present the most recent will be chosen";
         String pattern = "^[0-9]{1}.[0-9]{1}.[0-9]{1}";
         if (headerDoesNotExist(operation, header)) {
-            Parameter serviceGeneration = new dk.sample.openapi.HeaderParameter();
+            Parameter serviceGeneration = new io.openapitools.openapi.HeaderParameter();
             serviceGeneration.setIn("header");
             serviceGeneration.setRequired(false);
             serviceGeneration.setName(header);
@@ -88,7 +88,7 @@ public class Headers {
         String description = "A Client version ID is recommended for traceability from own logs.";
         String pattern = "^[0-9]{1}.[0-9]{1}.[0-9]{1}";
         if (headerDoesNotExist(operation, header)) {
-            Parameter clientVersion = new dk.sample.openapi.HeaderParameter();
+            Parameter clientVersion = new io.openapitools.openapi.HeaderParameter();
             clientVersion.setIn("header");
             clientVersion.setRequired(true);
             clientVersion.setName(header);

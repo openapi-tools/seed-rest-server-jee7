@@ -1,4 +1,4 @@
-package dk.sample.rest;
+package io.openapitools.rest;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -7,15 +7,15 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-import dk.sample.rest.bank.account.exposure.rs.AccountEventFeedMetadataServiceExposure;
-import dk.sample.rest.bank.account.exposure.rs.AccountEventServiceExposure;
-import dk.sample.rest.bank.account.exposure.rs.AccountServiceExposure;
-import dk.sample.rest.bank.account.exposure.rs.ReconciledTransactionServiceExposure;
-import dk.sample.rest.bank.account.exposure.rs.TransactionServiceExposure;
-import dk.sample.rest.bank.customer.exposure.rs.CustomerEventFeedMetadataServiceExposure;
-import dk.sample.rest.bank.customer.exposure.rs.CustomerEventServiceExposure;
-import dk.sample.rest.bank.customer.exposure.rs.CustomerServiceExposure;
-import dk.sample.rest.common.rs.JaxRsRuntime;
+import io.openapitools.rest.bank.account.exposure.rs.AccountEventFeedMetadataServiceExposure;
+import io.openapitools.rest.bank.account.exposure.rs.AccountEventServiceExposure;
+import io.openapitools.rest.bank.account.exposure.rs.AccountServiceExposure;
+import io.openapitools.rest.bank.account.exposure.rs.ReconciledTransactionServiceExposure;
+import io.openapitools.rest.bank.account.exposure.rs.TransactionServiceExposure;
+import io.openapitools.rest.bank.customer.exposure.rs.CustomerEventFeedMetadataServiceExposure;
+import io.openapitools.rest.bank.customer.exposure.rs.CustomerEventServiceExposure;
+import io.openapitools.rest.bank.customer.exposure.rs.CustomerServiceExposure;
+import io.openapitools.rest.common.rs.JaxRsRuntime;
 import io.swagger.annotations.ApiKeyAuthDefinition;
 import io.swagger.annotations.ExternalDocs;
 import io.swagger.annotations.OAuth2Definition;

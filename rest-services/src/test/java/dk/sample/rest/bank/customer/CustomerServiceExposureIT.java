@@ -1,8 +1,8 @@
-package dk.sample.rest.bank.customer;
+package io.openapitools.rest.bank.customer;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
-import dk.sample.rest.common.core.diagnostic.ContextInfo;
-import dk.sample.rest.common.core.diagnostic.DiagnosticContext;
+import io.openapitools.rest.common.core.diagnostic.ContextInfo;
+import io.openapitools.rest.common.core.diagnostic.DiagnosticContext;
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;
 import java.util.List;

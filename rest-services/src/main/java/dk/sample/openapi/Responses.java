@@ -1,4 +1,4 @@
-package dk.sample.openapi;
+package io.openapitools.openapi;
 
 import java.util.Map;
 

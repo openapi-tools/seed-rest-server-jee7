@@ -1,4 +1,4 @@
-package dk.sample.openapi;
+package io.openapitools.openapi;
 
 /**
  * ensuring that the headers are getting the String type in the openapi documentation

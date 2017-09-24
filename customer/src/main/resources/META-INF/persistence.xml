@@ -7,13 +7,13 @@
     <persistence-unit name="customerPersistenceUnit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>Customer</jta-data-source>
-        <class>dk.sample.rest.bank.customer.model.Customer</class>
-        <class>dk.sample.rest.bank.customer.model.Event</class>
+        <class>io.openapitools.rest.bank.customer.model.Customer</class>
+        <class>io.openapitools.rest.bank.customer.model.Event</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
-            <property name="hibernate.transaction.jta.platform" value="dk.sample.rest.common.persistence.vendor.hibernate.JtaPlatform"/>
-            <property name="hibernate.dialect_resolvers" value="dk.sample.rest.common.persistence.vendor.hibernate.DB2DialectResolver"/>
+            <property name="hibernate.transaction.jta.platform" value="io.openapitools.rest.common.persistence.vendor.hibernate.JtaPlatform"/>
+            <property name="hibernate.dialect_resolvers" value="io.openapitools.rest.common.persistence.vendor.hibernate.DB2DialectResolver"/>
         </properties>
     </persistence-unit>
 

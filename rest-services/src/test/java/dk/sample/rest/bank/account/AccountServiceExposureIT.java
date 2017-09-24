@@ -1,4 +1,4 @@
-package dk.sample.rest.bank.account;
+package io.openapitools.rest.bank.account;
 
 import static org.junit.Assert.*;
 
@@ -21,8 +21,8 @@ import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
-import dk.sample.rest.common.core.diagnostic.ContextInfo;
-import dk.sample.rest.common.core.diagnostic.DiagnosticContext;
+import io.openapitools.rest.common.core.diagnostic.ContextInfo;
+import io.openapitools.rest.common.core.diagnostic.DiagnosticContext;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
