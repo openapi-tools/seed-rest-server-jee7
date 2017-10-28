@@ -16,8 +16,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.persistence.UniqueConstraint;
 
-import dk.nykredit.time.CurrentTime;
 import dk.sample.rest.common.persistence.jpa.AbstractAuditable;
+import dk.sample.time.CurrentTime;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 

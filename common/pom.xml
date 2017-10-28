@@ -37,7 +37,7 @@
             <artifactId>commons-io</artifactId>
         </dependency>
         <dependency>
-            <groupId>dk.nykredit.jackson.dataformat</groupId>
+            <groupId>io.openapitools.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-hal</artifactId>
         </dependency>
         <dependency>

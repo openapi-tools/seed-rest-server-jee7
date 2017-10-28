@@ -31,7 +31,7 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>dk.nykredit.jackson.dataformat</groupId>
+            <groupId>io.openapitools.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-hal</artifactId>
         </dependency>
         <dependency>
@@ -212,25 +212,25 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>dk.nykredit.swagger</groupId>
+                <groupId>io.openapitools.swagger</groupId>
                 <artifactId>swagger-maven-plugin</artifactId>
-                <version>${dk.nykredit.swagger.version}</version>
+                <version>${io.openapitools.swagger.version}</version>
                 <dependencies>
                     <dependency>
-                        <groupId>dk.nykredit.swagger</groupId>
+                        <groupId>io.openapitools.hal</groupId>
                         <artifactId>swagger-hal</artifactId>
-                        <version>${swagger-hal.version}</version>
+                        <version>${io.openapitools.hal.version}</version>
                     </dependency>
-                         <dependency>
-                             <groupId>dk.sample.rest</groupId>
-                             <artifactId>customer</artifactId>
-                             <version>${project.version}</version>
-                         </dependency>
-                         <dependency>
-                             <groupId>dk.sample.rest</groupId>
-                             <artifactId>rest-services</artifactId>
-                             <version>${project.version}</version>
-                         </dependency>
+                    <dependency>
+                        <groupId>dk.sample.rest</groupId>
+                        <artifactId>customer</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>dk.sample.rest</groupId>
+                        <artifactId>rest-services</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
                 </dependencies>
                 <configuration>
                     <resourcePackages>

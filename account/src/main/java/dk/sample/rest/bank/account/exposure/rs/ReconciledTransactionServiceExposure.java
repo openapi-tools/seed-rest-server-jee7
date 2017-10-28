@@ -21,7 +21,7 @@ import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import dk.nykredit.api.capabilities.Sanitizer;
+
 import dk.sample.rest.bank.account.exposure.rs.model.ReconciledTransactionRepresentation;
 import dk.sample.rest.bank.account.exposure.rs.model.ReconciledTransactionUpdateRepresentation;
 import dk.sample.rest.bank.account.exposure.rs.model.ReconciledTransactionsRepresentation;
@@ -31,6 +31,7 @@ import dk.sample.rest.bank.account.model.Transaction;
 import dk.sample.rest.bank.account.persistence.AccountArchivist;
 import dk.sample.rest.common.core.logging.LogDuration;
 import dk.sample.rest.common.rs.EntityResponseBuilder;
+import io.openapitools.api.capabilities.Sanitizer;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

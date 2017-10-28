@@ -30,7 +30,6 @@ import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import dk.nykredit.time.CurrentTime;
 import dk.sample.rest.bank.account.exposure.rs.model.AccountRepresentation;
 import dk.sample.rest.bank.account.exposure.rs.model.AccountSparseRepresentation;
 import dk.sample.rest.bank.account.exposure.rs.model.AccountUpdateRepresentation;
@@ -40,6 +39,7 @@ import dk.sample.rest.bank.account.persistence.AccountArchivist;
 import dk.sample.rest.common.core.logging.LogDuration;
 import dk.sample.rest.common.rs.EntityResponseBuilder;
 import dk.sample.rest.common.rs.error.ErrorRepresentation;
+import dk.sample.time.CurrentTime;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

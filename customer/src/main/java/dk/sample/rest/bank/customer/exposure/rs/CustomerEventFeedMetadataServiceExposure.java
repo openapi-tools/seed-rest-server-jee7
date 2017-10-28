@@ -20,10 +20,10 @@ import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import dk.nykredit.time.CurrentTime;
 import dk.sample.rest.bank.customer.exposure.rs.model.EventsMetadataRepresentation;
 import dk.sample.rest.bank.customer.persistence.CustomerArchivist;
 import dk.sample.rest.common.core.logging.LogDuration;
+import dk.sample.time.CurrentTime;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.Authorization;

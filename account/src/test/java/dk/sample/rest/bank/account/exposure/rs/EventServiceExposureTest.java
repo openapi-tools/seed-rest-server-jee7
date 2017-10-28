@@ -13,7 +13,8 @@ import dk.sample.rest.bank.account.exposure.rs.model.EventsRepresentation;
 import dk.sample.rest.bank.account.model.Event;
 import dk.sample.rest.bank.account.persistence.AccountArchivist;
 import dk.sample.rest.common.test.rs.UriBuilderFactory;
-import dk.nykredit.time.CurrentTime;
+import dk.sample.time.CurrentTime;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

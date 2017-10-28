@@ -3,7 +3,7 @@ package dk.sample.rest.bank.account.exposure.rs.model;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
-import dk.nykredit.jackson.dataformat.hal.annotation.Resource;
+import io.openapitools.jackson.dataformat.hal.annotation.Resource;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

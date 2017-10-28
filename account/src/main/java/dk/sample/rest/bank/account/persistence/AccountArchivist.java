@@ -14,14 +14,14 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceException;
 import javax.persistence.TypedQuery;
 
-import dk.nykredit.api.capabilities.Element;
-import dk.nykredit.api.capabilities.Interval;
-import dk.nykredit.api.capabilities.Sort;
 import dk.sample.rest.bank.account.model.Account;
 import dk.sample.rest.bank.account.model.Event;
 import dk.sample.rest.bank.account.model.ReconciledTransaction;
 import dk.sample.rest.bank.account.model.Transaction;
 import dk.sample.rest.common.core.logging.LogDuration;
+import io.openapitools.api.capabilities.Element;
+import io.openapitools.api.capabilities.Interval;
+import io.openapitools.api.capabilities.Sort;
 
 /**
  * Handles archiving (persistence) tasks for the account domain model.

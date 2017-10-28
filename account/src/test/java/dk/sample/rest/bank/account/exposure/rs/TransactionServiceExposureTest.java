@@ -13,7 +13,7 @@ import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import dk.nykredit.api.capabilities.Sort;
+import io.openapitools.api.capabilities.Sort;
 import dk.sample.rest.bank.account.exposure.rs.model.TransactionsRepresentation;
 import dk.sample.rest.bank.account.model.Account;
 import dk.sample.rest.bank.account.model.Transaction;

@@ -12,7 +12,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
-import dk.nykredit.jackson.dataformat.hal.HALMapper;
+import io.openapitools.jackson.dataformat.hal.HALMapper;
 
 /**
  * Specialization of the Jackson provider implementing {@link javax.ws.rs.ext.MessageBodyReader} and

@@ -13,10 +13,10 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceException;
 import javax.persistence.TypedQuery;
 
-import dk.nykredit.api.capabilities.Interval;
 import dk.sample.rest.bank.customer.model.Customer;
 import dk.sample.rest.bank.customer.model.Event;
 import dk.sample.rest.common.core.logging.LogDuration;
+import io.openapitools.api.capabilities.Interval;
 
 /**
  * Handles archiving (persistence) tasks for the customer domain model.

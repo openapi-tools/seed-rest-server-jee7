@@ -2,10 +2,10 @@ package dk.sample.rest.bank.account.exposure.rs.model;
 
 import javax.ws.rs.core.UriInfo;
 
-import dk.nykredit.jackson.dataformat.hal.HALLink;
-import dk.nykredit.jackson.dataformat.hal.annotation.Link;
-import dk.nykredit.jackson.dataformat.hal.annotation.Resource;
 import dk.sample.rest.bank.account.exposure.rs.AccountEventFeedMetadataServiceExposure;
+import io.openapitools.jackson.dataformat.hal.HALLink;
+import io.openapitools.jackson.dataformat.hal.annotation.Link;
+import io.openapitools.jackson.dataformat.hal.annotation.Resource;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

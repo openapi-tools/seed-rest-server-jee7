@@ -7,10 +7,10 @@ import java.util.Map;
 
 import javax.ws.rs.core.UriBuilderException;
 
-import dk.nykredit.jackson.dataformat.hal.HALLink;
-import dk.nykredit.jackson.dataformat.hal.annotation.Link;
-import dk.nykredit.jackson.dataformat.hal.annotation.Resource;
 import dk.sample.rest.common.core.diagnostic.DiagnosticContext;
+import io.openapitools.jackson.dataformat.hal.HALLink;
+import io.openapitools.jackson.dataformat.hal.annotation.Link;
+import io.openapitools.jackson.dataformat.hal.annotation.Resource;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -88,7 +88,7 @@ public class ErrorRepresentation {
 
 
     private HALLink createResourceLink(URI uri) throws IllegalArgumentException, UriBuilderException {
-        return (new dk.nykredit.jackson.dataformat.hal.HALLink.Builder(uri)).title("Link to failed resource").build();
+        return (new io.openapitools.jackson.dataformat.hal.HALLink.Builder(uri)).title("Link to failed resource").build();
     }
 
     /**
