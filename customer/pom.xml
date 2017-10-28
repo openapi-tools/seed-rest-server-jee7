@@ -5,7 +5,7 @@
 
     <parent>
         <artifactId>rest</artifactId>
-        <groupId>dk.sample.rest</groupId>
+        <groupId>io.openapitools.sample.rest</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
@@ -16,7 +16,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>dk.sample.rest</groupId>
+            <groupId>io.openapitools.sample.rest</groupId>
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>

@@ -15,7 +15,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>api</servlet-name>
-        <servlet-class>dk.sample.rest.common.rs.web.ApiServlet</servlet-class>
+        <servlet-class>io.openapitools.sample.rest.common.rs.web.ApiServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>api</servlet-name>

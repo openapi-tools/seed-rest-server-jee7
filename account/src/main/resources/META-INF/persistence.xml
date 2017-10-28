@@ -7,15 +7,15 @@
     <persistence-unit name="accountPersistenceUnit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>Account</jta-data-source>
-        <class>dk.sample.rest.bank.account.model.Account</class>
-        <class>dk.sample.rest.bank.account.model.Transaction</class>
-        <class>dk.sample.rest.bank.account.model.ReconciledTransaction</class>
-        <class>dk.sample.rest.bank.account.model.Event</class>
+        <class>io.openapitools.sample.rest.bank.account.model.Account</class>
+        <class>io.openapitools.sample.rest.bank.account.model.Transaction</class>
+        <class>io.openapitools.sample.rest.bank.account.model.ReconciledTransaction</class>
+        <class>io.openapitools.sample.rest.bank.account.model.Event</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
-            <property name="hibernate.transaction.jta.platform" value="dk.sample.rest.common.persistence.vendor.hibernate.JtaPlatform"/>
-            <property name="hibernate.dialect_resolvers" value="dk.sample.rest.common.persistence.vendor.hibernate.DB2DialectResolver"/>
+            <property name="hibernate.transaction.jta.platform" value="io.openapitools.sample.rest.common.persistence.vendor.hibernate.JtaPlatform"/>
+            <property name="hibernate.dialect_resolvers" value="io.openapitools.sample.rest.common.persistence.vendor.hibernate.DB2DialectResolver"/>
         </properties>
     </persistence-unit>
 
