@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.openapitools.rest</groupId>
+    <groupId>io.openapitools.sample.rest</groupId>
     <artifactId>rest</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -36,58 +36,63 @@
     <properties>
         <changelog.version>2.3</changelog.version>
         <checkstyle.plugin.version>2.17</checkstyle.plugin.version>
-        <checkstyle.version>7.8.2</checkstyle.version>
-        <dependency.version>3.0.0</dependency.version>
-        <findbugs.version>3.0.4</findbugs.version>
-        <jacoco.version>0.7.8</jacoco.version>
-        <compiler.version>3.6.0</compiler.version>
-        <com.fasterxml.jackson.version>2.8.5</com.fasterxml.jackson.version>
-        <com.h2database.h2.version>1.4.186</com.h2database.h2.version>
-        <commons-codec.version>1.9</commons-codec.version>
-        <commons-io.version>2.5</commons-io.version>
-        <commons-lang3.version>3.4</commons-lang3.version>
-        <dk.nykredit.jackson.dataformat.version>1.0.1</dk.nykredit.jackson.dataformat.version>
-        <dk.nykredit.api.version>1.0.0</dk.nykredit.api.version>
-        <dk.nykredit.swagger.version>1.0.0</dk.nykredit.swagger.version>
+        <checkstyle.version>8.3</checkstyle.version>
+        <dependency.version>3.0.2</dependency.version>
+        <compiler.version>3.7.0</compiler.version>
+        <com.fasterxml.jackson.version>2.9.2</com.fasterxml.jackson.version>
+        <com.h2database.h2.version>1.4.196</com.h2database.h2.version>
+        <commons-codec.version>1.11</commons-codec.version>
+        <commons-io.version>2.6</commons-io.version>
+        <commons-lang3.version>3.6</commons-lang3.version>
         <enforcer.version>1.4.1</enforcer.version>
-        <failsafe.version>2.20</failsafe.version>
-        <findbugs.version>3.0.4</findbugs.version>
+        <findbugs.version>3.0.5</findbugs.version>
         <google.http-client.version>1.22.0</google.http-client.version>
         <google.oauth-client.version>1.22.0</google.oauth-client.version>
-        <io.swagger.version>1.5.12</io.swagger.version>
+        <io.openapitools.api.version>1.0.1</io.openapitools.api.version>
+        <io.openapitools.jackson.dataformat.version>1.0.4</io.openapitools.jackson.dataformat.version>
+        <io.openapitools.hal.version>1.0.4</io.openapitools.hal.version>
+        <io.openapitools.swagger.version>1.0.1</io.openapitools.swagger.version>
+        <io.swagger.version>1.5.16</io.swagger.version>
         <jacoco.version>0.7.9</jacoco.version>
         <jacoco.report>${project.build.directory}/jacoco.exec</jacoco.report>
         <jacoco.it.report>${project.build.directory}/jacoco-it.exec</jacoco.it.report>
         <javaee-web-api.version>7.0</javaee-web-api.version>
-        <javax.servlet.version>3.0.1</javax.servlet.version>
+        <javax.servlet.version>3.1.0</javax.servlet.version>
         <jdk.min.version>1.8</jdk.min.version>
         <jdk.version>1.8</jdk.version>
         <junit.version>4.11</junit.version>
         <jxr.version>2.5</jxr.version>
         <log4j.version>1.2.17</log4j.version>
         <maven.min.version>3.3.9</maven.min.version>
-        <maven.failsafe.version>2.20</maven.failsafe.version>
-        <maven.war.version>3.0.0</maven.war.version>
+        <maven.failsafe.version>2.20.1</maven.failsafe.version>
+        <maven.war.version>3.2.0</maven.war.version>
         <maven.deploy.version>2.8.2</maven.deploy.version>
-        <org.codehaus.cargo.version>1.6.3</org.codehaus.cargo.version>
+        <maven.surefire.version>2.20.1</maven.surefire.version>
+        <maven.versions.version>2.5</maven.versions.version>
+        <org.codehaus.cargo.version>1.6.5</org.codehaus.cargo.version>
+
         <org.hibernate.javax.persistence.version>1.0.0.Final</org.hibernate.javax.persistence.version>
-        <org.hibernate.validator.version>5.2.3.Final</org.hibernate.validator.version>
-        <org.hibernate.version>5.0.7.Final</org.hibernate.version>
+
+        <org.hibernate.validator.version>6.0.4.Final</org.hibernate.validator.version>
+        <org.hibernate.version>5.2.12.Final</org.hibernate.version>
+
         <org.jboss.logging.version>3.3.0.Final</org.jboss.logging.version>
-        <org.mockito.version>2.2.29</org.mockito.version>
-        <org.slf4j.version>1.7.7</org.slf4j.version>
+
+        <org.mockito.version>2.11.0</org.mockito.version>
+        <org.slf4j.version>1.7.25</org.slf4j.version>
         <org.glassfish.jersey.version>2.25</org.glassfish.jersey.version>
-        <org.javassist.version>3.20.0-GA</org.javassist.version>
-        <pmd.plugin.version>3.7</pmd.plugin.version>
+        <org.javassist.version>3.22.0-GA</org.javassist.version>
+        <pmd.plugin.version>3.8</pmd.plugin.version>
+
         <pmd.version>5.5.2</pmd.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.info.reportsplugin.version>2.9</project.info.reportsplugin.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <resteasy.version>3.0.10.Final</resteasy.version>
-        <surefire.version>2.20</surefire.version>
+
         <swagger-maven-plugin.version>3.1.4</swagger-maven-plugin.version>
-        <swagger-hal.version>1.0.1</swagger-hal.version>
-        <versions.version>2.3</versions.version>
+
     </properties>
 
     <dependencyManagement>
@@ -153,9 +158,9 @@
                 <version>${javaee-web-api.version}</version>
             </dependency>
             <dependency>
-                <groupId>dk.nykredit.api</groupId>
+                <groupId>io.openapitools.api</groupId>
                 <artifactId>capabilities</artifactId>
-                <version>${dk.nykredit.api.version}</version>
+                <version>${io.openapitools.api.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
@@ -208,9 +213,9 @@
                 <version>${com.fasterxml.jackson.version}</version>
             </dependency>
             <dependency>
-                <groupId>dk.nykredit.jackson.dataformat</groupId>
+                <groupId>io.openapitools.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-hal</artifactId>
-                <version>${dk.nykredit.jackson.dataformat.version}</version>
+                <version>${io.openapitools.jackson.dataformat.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.glassfish.jersey.bundles</groupId>
@@ -307,7 +312,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${surefire.version}</version>
+                    <version>${maven.surefire.version}</version>
                     <configuration>
                         <argLine>${jacoco.test}</argLine>
                     </configuration>
@@ -335,7 +340,7 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
+                    <artifactId>maven-enforcer-plugin</artifactId>
                 <version>${enforcer.version}</version>
                 <executions>
                     <execution>
@@ -468,7 +473,7 @@
                 <configuration>
                     <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
                     <includes>**/dk/sample/**/*.java</includes>
-                    <configLocation>https://raw.githubusercontent.com/AllanHoejgaardJensen/seed-rest-server-jee7/master/rules/checkstyle.xml</configLocation>
+                    <configLocation>https://raw.githubusercontent.com/openapi-tools/code-style/master/checkstyle/rules.xml</configLocation>
                     <includeTestResources>false</includeTestResources>
                 </configuration>
                 <dependencies>
@@ -485,7 +490,7 @@
                 <version>${pmd.plugin.version}</version>
                 <configuration>
                     <rulesets>
-                        <ruleset>https://raw.githubusercontent.com/AllanHoejgaardJensen/seed-rest-server-jee7/master/rules/pmd.xml</ruleset>
+                        <ruleset>https://raw.githubusercontent.com/openapi-tools/code-style/master/pmd/rules.xml</ruleset>
                     </rulesets>
                     <targetJdk>${jdk.version}</targetJdk>
                     <includes>
@@ -502,7 +507,7 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>${findbugs.version}</version>
                 <configuration>
-                    <onlyAnalyze>io.openapitools.-</onlyAnalyze>
+                    <onlyAnalyze>io.openapitools.sample.-</onlyAnalyze>
                 </configuration>
             </plugin>
         </plugins>
@@ -634,7 +639,7 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>${findbugs.version}</version>
                 <configuration>
-                    <onlyAnalyze>io.openapitools.-</onlyAnalyze>
+                    <onlyAnalyze>io.openapitools.sample.-</onlyAnalyze>
                 </configuration>
             </plugin>
             <plugin>
@@ -684,7 +689,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <version>${versions.version}</version>
+                <version>${maven.versions.version}</version>
                 <reportSets>
                     <reportSet>
                         <reports>
