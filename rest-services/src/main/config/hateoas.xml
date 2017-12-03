@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<configuration xsi:schemaLocation="http://nykredit.dk/nif/component/configuration/schema configuration.xsd"
-               xmlns="http://nykredit.dk/nif/component/configuration/schema"
+<configuration xsi:schemaLocation="http://openapi.io/component/configuration/schema configuration.xsd"
+               xmlns="http://openapitools.io/component/configuration/schema"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <section name="config">

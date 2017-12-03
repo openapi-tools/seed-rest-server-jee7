@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.openapitools.rest</groupId>
+        <groupId>io.openapitools.sample.rest</groupId>
         <artifactId>rest</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -16,22 +16,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.openapitools.rest</groupId>
+            <groupId>io.openapitools.sample.rest</groupId>
             <artifactId>account</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.openapitools.rest</groupId>
+            <groupId>io.openapitools.sample.rest</groupId>
             <artifactId>customer</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.openapitools.rest</groupId>
+            <groupId>io.openapitools.sample.rest</groupId>
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>dk.nykredit.jackson.dataformat</groupId>
+            <groupId>io.openapitools.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-hal</artifactId>
         </dependency>
         <dependency>
@@ -212,32 +212,32 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>dk.nykredit.swagger</groupId>
+                <groupId>io.openapitools.swagger</groupId>
                 <artifactId>swagger-maven-plugin</artifactId>
-                <version>${dk.nykredit.swagger.version}</version>
+                <version>${io.openapitools.swagger.version}</version>
                 <dependencies>
                     <dependency>
-                        <groupId>dk.nykredit.swagger</groupId>
+                        <groupId>io.openapitools.hal</groupId>
                         <artifactId>swagger-hal</artifactId>
-                        <version>${swagger-hal.version}</version>
+                        <version>${io.openapitools.hal.version}</version>
                     </dependency>
-                         <dependency>
-                             <groupId>io.openapitools.rest</groupId>
-                             <artifactId>customer</artifactId>
-                             <version>${project.version}</version>
-                         </dependency>
-                         <dependency>
-                             <groupId>io.openapitools.rest</groupId>
-                             <artifactId>rest-services</artifactId>
-                             <version>${project.version}</version>
-                         </dependency>
+                    <dependency>
+                        <groupId>io.openapitools.sample.rest</groupId>
+                        <artifactId>customer</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>io.openapitools.sample.rest</groupId>
+                        <artifactId>rest-services</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
                 </dependencies>
                 <configuration>
                     <resourcePackages>
-                        <resourcePackage>io.openapitools.rest.bank.account.exposure.rs</resourcePackage>
-                        <resourcePackage>io.openapitools.rest.bank.customer.exposure.rs</resourcePackage>
-                        <resourcePackage>io.openapitools.rest</resourcePackage>
-                        <resourcePackage>io.openapitools.openapi</resourcePackage>
+                        <resourcePackage>io.openapitools.sample.rest.bank.account.exposure.rs</resourcePackage>
+                        <resourcePackage>io.openapitools.sample.rest.bank.customer.exposure.rs</resourcePackage>
+                        <resourcePackage>io.openapitools.sample.rest</resourcePackage>
+                        <resourcePackage>io.openapitools.sample.openapi</resourcePackage>
                     </resourcePackages>
                     <swaggerConfig>
                         <descriptionFile>
