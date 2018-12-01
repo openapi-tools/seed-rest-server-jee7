@@ -122,6 +122,7 @@
                         <systemProperties>
                             <config>${project.build.directory}/generated-sources/config/local</config>
                             <hibernate.hbm2ddl.auto>update</hibernate.hbm2ddl.auto>
+                            <java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
                         </systemProperties>
                     </container>
                     <configuration>
