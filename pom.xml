@@ -52,7 +52,7 @@
         <io.openapitools.jackson.dataformat.version>1.0.4</io.openapitools.jackson.dataformat.version>
         <io.openapitools.hal.version>1.0.4</io.openapitools.hal.version>
         <io.openapitools.swagger.version>1.0.1</io.openapitools.swagger.version>
-        <io.swagger.version>1.5.16</io.swagger.version>
+        <io.swagger.version>1.5.22</io.swagger.version>
         <jacoco.version>0.7.9</jacoco.version>
         <jacoco.report>${project.build.directory}/jacoco.exec</jacoco.report>
         <jacoco.it.report>${project.build.directory}/jacoco-it.exec</jacoco.it.report>
