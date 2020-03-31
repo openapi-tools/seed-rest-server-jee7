@@ -39,9 +39,9 @@
         <checkstyle.version>8.3</checkstyle.version>
         <dependency.version>3.0.2</dependency.version>
         <compiler.version>3.7.0</compiler.version>
-        <com.fasterxml.jackson.version>2.9.8</com.fasterxml.jackson.version>
+        <com.fasterxml.jackson.version>2.10.0</com.fasterxml.jackson.version>
         <com.h2database.h2.version>1.4.196</com.h2database.h2.version>
-        <commons-codec.version>1.11</commons-codec.version>
+        <commons-codec.version>1.13</commons-codec.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-lang3.version>3.6</commons-lang3.version>
         <enforcer.version>1.4.1</enforcer.version>
