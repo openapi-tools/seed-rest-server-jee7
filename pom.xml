@@ -74,7 +74,7 @@
         <org.hibernate.javax.persistence.version>1.0.0.Final</org.hibernate.javax.persistence.version>
 
         <org.hibernate.validator.version>6.0.4.Final</org.hibernate.validator.version>
-        <org.hibernate.version>5.2.12.Final</org.hibernate.version>
+        <org.hibernate.version>5.4.24.Final</org.hibernate.version>
 
         <org.jboss.logging.version>3.3.0.Final</org.jboss.logging.version>
 
