@@ -39,7 +39,7 @@
         <checkstyle.version>8.3</checkstyle.version>
         <dependency.version>3.0.2</dependency.version>
         <compiler.version>3.7.0</compiler.version>
-        <com.fasterxml.jackson.version>2.9.8</com.fasterxml.jackson.version>
+        <com.fasterxml.jackson.version>2.9.10.8</com.fasterxml.jackson.version>
         <com.h2database.h2.version>1.4.196</com.h2database.h2.version>
         <commons-codec.version>1.11</commons-codec.version>
         <commons-io.version>2.6</commons-io.version>
@@ -49,10 +49,10 @@
         <google.http-client.version>1.22.0</google.http-client.version>
         <google.oauth-client.version>1.22.0</google.oauth-client.version>
         <io.openapitools.api.version>1.0.1</io.openapitools.api.version>
-        <io.openapitools.jackson.dataformat.version>1.0.4</io.openapitools.jackson.dataformat.version>
+        <io.openapitools.jackson.dataformat.version>1.0.7</io.openapitools.jackson.dataformat.version>
         <io.openapitools.hal.version>1.0.4</io.openapitools.hal.version>
         <io.openapitools.swagger.version>1.0.1</io.openapitools.swagger.version>
-        <io.swagger.version>1.5.16</io.swagger.version>
+        <io.swagger.version>1.6.0</io.swagger.version>
         <jacoco.version>0.7.9</jacoco.version>
         <jacoco.report>${project.build.directory}/jacoco.exec</jacoco.report>
         <jacoco.it.report>${project.build.directory}/jacoco-it.exec</jacoco.it.report>
