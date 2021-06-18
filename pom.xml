@@ -46,10 +46,10 @@
         <commons-lang3.version>3.6</commons-lang3.version>
         <enforcer.version>1.4.1</enforcer.version>
         <findbugs.version>3.0.5</findbugs.version>
-        <google.http-client.version>1.22.0</google.http-client.version>
-        <google.oauth-client.version>1.22.0</google.oauth-client.version>
+        <google.http-client.version>1.28.0</google.http-client.version>
+        <google.oauth-client.version>1.28.0</google.oauth-client.version>
         <io.openapitools.api.version>1.0.1</io.openapitools.api.version>
-        <io.openapitools.jackson.dataformat.version>1.0.4</io.openapitools.jackson.dataformat.version>
+        <io.openapitools.jackson.dataformat.version>1.0.8</io.openapitools.jackson.dataformat.version>
         <io.openapitools.hal.version>1.0.4</io.openapitools.hal.version>
         <io.openapitools.swagger.version>1.0.1</io.openapitools.swagger.version>
         <io.swagger.version>1.5.16</io.swagger.version>
